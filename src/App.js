@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API_BASE_URL = ''; // Replace with your backend EC2 instance IP
+const API_BASE_URL = 'http://3.6.126.133'; // Your backend EC2 instance IP
 
 function App() {
   const [books, setBooks] = useState([]);
